@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <mappers>
+        <mapper resource="mappers/housedeal.xml"/>
+        <mapper resource="mappers/member.xml"/>
+        <mapper resource="mappers/qna.xml"/>
+        <mapper resource="mappers/interestapt.xml"/>
+        <mapper resource="mappers/notice.xml"/>
+        <mapper resource="mappers/chart.xml"/>
+        <mapper resource="mappers/fselectbox.xml"/>
+        <mapper resource="mappers/commercial.xml"/>
+    </mappers>
+</configuration>

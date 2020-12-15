@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mappers/emp.xml -->
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.HappyHouse.dao.MemberInfoDao"> <!-- mybatis는 namespace필수!! -->
+
+	<!-- member -->
+
+   <select id="login" resultType="com.ssafy.HappyHouse.dto.MemberDto">
+		select * from ssafy_member 
+		where userid = #{userid}
+		and userpwd = #{userpwd}
+	</select>
+	
+	
+	<insert id="insert">
+		insert into ssafy_member (userid, username, userpwd, email, address)
+		values(#{userid}, #{username}, #{userpwd}, #{email}, #{address})
+	</insert>
+	
+	<insert id="insert_interest">
+		insert into ssafy_member (userid, username, userpwd, email, address, sido, gugun, dong)
+		values(#{userid}, #{username}, #{userpwd}, #{email}, #{address}, #{sido}, #{gugun}, #{dong})
+	</insert>
+	
+	
+	<update id = "update">
+		update ssafy_member set
+		username = #{username},
+		userpwd = #{userpwd},
+		email = #{email},
+		address = #{address},
+		sido = #{sido},
+		gugun = #{gugun},
+		dong = #{dong}
+		where userid = #{userid}
+	</update>
+	
+	<delete id = "delete">
+		delete from ssafy_member
+		where userid = #{username}
+	</delete>
+	
+	<select id ="searchPw" resultType = "com.ssafy.HappyHouse.dto.MemberDto">
+		select * from ssafy_member
+		where userid = #{userid}
+	</select>
+   
+   
+</mapper>
+
+
+
+

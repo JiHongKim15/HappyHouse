@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mappers/emp.xml -->
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.HappyHouse.dao.HouseDao"> <!-- mybatis는 namespace필수!! -->
+
+	<!-- 전체 조회 -->
+	<select id="searchAlln" resultType="HouseDeal">
+       select no, trim(dong) as dong, AptName, code, dealAmount, buildYear, dealYear, dealMonth, dealDay, area, floor, jibun, type, rentMoney 
+       from housedeal 
+       limit 500
+   </select>
+   
+   <select id="searchDongJibun" resultType="HouseDeal">
+       select * from housedeal
+       where dong  like CONCAT('%',#{dong},'%')
+       and jibun like CONCAT('%',#{jibun},'%')
+       and aptname like CONCAT('%',#{aptname},'%')
+   </select>
+
+	<select id="searchAll" resultType="HouseDeal">
+		<!-- parameterType속성 생략, resultType속성 필수!! -->
+		select no, trim(dong) as dong, AptName, code, dealAmount, buildYear, dealYear, dealMonth, dealDay, area, floor, jibun, type, rentMoney 
+		from housedeal
+		where 1=1
+		and type in
+		<foreach collection="searchType" item="typei" open ="(" close =")" separator = ", ">
+			<if test = "typei != 0">
+				#{typei}
+			</if>
+		</foreach>
+		<if test = "dong != null" >
+			and dong like CONCAT('%',#{dong},'%')
+		</if>
+		<if test = "aptname != null">
+			and aptname like CONCAT('%',#{aptname},'%')
+		</if>
+	</select>
+
+	<select id="search" resultType = "HouseDeal">
+      select no, trim(dong) as dong, AptName, code, dealAmount, buildYear, dealYear, dealMonth, dealDay, area, floor, jibun, type, rentMoney 
+      from housedeal
+      where no = #{no}
+   </select>
+</mapper>
+
+
+

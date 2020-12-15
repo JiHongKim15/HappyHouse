@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.HappyHouse.mapper.chart">
+
+    <select id="dong" resultType="com.ssafy.HappyHouse.dto.ChartInfo">
+<!--         select dong as name , count(no) as count
+        from housedeal
+        where dealyear*12 + dealmonth <![CDATA[ >= ]]>  #{startDate} and dealyear*12 + dealmonth <![CDATA[ <= ]]> #{endDate}
+        group by dong
+        order by 2 desc
+         -->
+         <!--  동  별 검색을 구 별 검색으로 변경 -->
+         select b.gugun as name, count(no) as count 
+         from housedeal a inner join dongcode b 
+         	on a.code = left(b.code, 5) and trim(a.dong) = b.dong
+         where dealyear*12 + dealmonth <![CDATA[ >= ]]>  #{startDate} and dealyear*12 + dealmonth <![CDATA[ <= ]]> #{endDate} 
+         group by b.gugun 
+         order by 2 desc;
+    </select>
+
+    <select id="dealtype" resultType="com.ssafy.HappyHouse.dto.ChartInfo">
+        select
+            case when type = 1 then '아파트 매매'
+                 when type = 2 then '연립 다세대 매매'
+                 when type = 3 then '아파트 전월세'
+                 when type = 4 then '연립 다세대 전월세'
+                 end as 'name', count(no) as count
+        from housedeal
+        where dealyear*12 + dealmonth <![CDATA[ >= ]]>  #{startDate} and dealyear*12 + dealmonth <![CDATA[ <= ]]> #{endDate}
+        group by type
+        order by 2 desc
+    </select>
+
+    <select id="area" resultType="com.ssafy.HappyHouse.dto.ChartInfo">
+        select
+            case when area <![CDATA[ < ]]> 33.05 then '10평 이하'
+                 when area <![CDATA[ < ]]> 66.11 then '10평대'
+                 when area <![CDATA[ < ]]> 99.17 then '20평대'
+                 when area <![CDATA[ < ]]> 132.23 then '30평대'
+                 when area <![CDATA[ < ]]> 165.28 then '40평대'
+                 when area <![CDATA[ < ]]> 198.34 then '50평대'
+                 when area <![CDATA[ < ]]> 231.4 then '60평대'
+                 when area <![CDATA[ < ]]> 264.46 then '70평대'
+                 when area <![CDATA[ < ]]> 297.52 then '80평대'
+                 else '90평 이상'
+            end as 'name', count(no) as count
+        from housedeal
+        where dealyear*12 + dealmonth <![CDATA[ >= ]]>  #{startDate} and dealyear*12 + dealmonth <![CDATA[ <= ]]> #{endDate}
+        group by 1
+        order by 2 desc;
+    </select>
+
+    <select id="dealamount" resultType="com.ssafy.HappyHouse.dto.ChartInfo">
+        select
+            case when name <![CDATA[ < ]]> 10000 then '1억 이하'
+                 when name <![CDATA[ < ]]> 20000 then '2억 이하'
+                 when name <![CDATA[ < ]]> 30000 then '3억 이하'
+                 when name <![CDATA[ < ]]> 50000 then '5억 이하'
+                 when name <![CDATA[ < ]]> 70000 then '7억 이하'
+                 when name <![CDATA[ < ]]> 100000 then '10억 이하'
+                 when name <![CDATA[ < ]]> 150000 then '15억 이하'
+                 when name <![CDATA[ < ]]> 200000 then '20억 이하'
+                 when name <![CDATA[ < ]]> 300000 then '30억 이하'
+                 when name <![CDATA[ < ]]> 500000 then '50억 이하'
+                 else '50억 이상'
+                 end as name, count(no) as count
+        from (select cast(replace(dealamount, ',', '') as unsigned) as name, no
+              from housedeal
+              where dealyear*12 + dealmonth <![CDATA[ >= ]]>  #{startDate} and dealyear*12 + dealmonth <![CDATA[ <= ]]> #{endDate})temp
+        group by 1
+        order by 2 desc;
+    </select>
+</mapper>

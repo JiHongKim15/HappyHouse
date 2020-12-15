@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.HappyHouse.dao.InterestAptDao">
+	<insert id="insert">
+		insert into interest_apt(userid, no)
+		values(
+			#{userid},
+			#{no}
+		)
+	</insert>
+	<select id="searchAll" resultType="InterestAptDto">
+       select * from interest_apt
+       where userid = #{userid}
+   </select>
+</mapper>

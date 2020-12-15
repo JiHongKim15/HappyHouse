@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.ssafy.HappyHouse.controller.QnAController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/QnAController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="336" x="5984" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.ssafy.HappyHouse.dto.QnA" project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/QnA.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="596" width="227" x="212" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.ssafy.HappyHouse.service.NoticeServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/NoticeServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="245" x="5266" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.ssafy.HappyHouse.dto.MemberDto" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/MemberDto.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="696" width="520" x="479" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.ssafy.HappyHouse.dao.ChartDAO" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/ChartDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="156" width="441" x="11824" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.ssafy.HappyHouse.dto.HouseInfoDTO" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/HouseInfoDTO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="656" width="197" x="1682" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.ssafy.HappyHouse.dao.CommercialDao" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/CommercialDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="261" x="8852" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="com.ssafy.HappyHouse.service.HouseService" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/HouseService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="414" x="7241" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="com.ssafy.HappyHouse.dto.NoticeDto" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/NoticeDto.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="476" width="190" x="1919" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="com.ssafy.HappyHouse.service.InterestAptService" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/InterestAptService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="287" x="8048" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="com.ssafy.HappyHouse.controller.mainController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/mainController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="305" x="7059" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="com.ssafy.HappyHouse.service.CommercialService" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/CommercialService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="261" x="9154" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="com.ssafy.HappyHouse.dao.CommercialDaoImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/CommercialDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="261" x="8702" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="com.ssafy.HappyHouse.service.ChartService" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/ChartService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="441" x="12306" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="com.ssafy.HappyHouse.dao.NoticeDaoImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/NoticeDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="236" width="245" x="3686" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.ssafy.HappyHouse.service.HouseServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/HouseServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="414" x="6605" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="com.ssafy.HappyHouse.service.MemberService" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/MemberService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="328" x="10804" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="com.ssafy.HappyHouse.service.QnAServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/QnAServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="205" x="6360" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.ssafy.HappyHouse.dao.ChartDAOImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/ChartDAOImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="441" x="11584" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.ssafy.HappyHouse.dto.ChartRequestBean" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/ChartRequestBean.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="236" width="205" x="2149" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="com.ssafy.HappyHouse.service.QnAService" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/QnAService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="205" x="6115" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="22" language="java" name="com.ssafy.HappyHouse.dto.HouseDeal" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/HouseDeal.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1256" width="217" x="2394" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.ssafy.HappyHouse.service.InterestAptServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/InterestAptServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="287" x="8375" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.ssafy.HappyHouse.controller.chartController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/chartController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="423" x="12546" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.ssafy.HappyHouse.controller.FSelectBoxController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/FSelectBoxController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="398" x="9955" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.ssafy.HappyHouse.controller.CommercialController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/CommercialController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="219" x="9304" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="27" language="java" name="com.ssafy.HappyHouse.dao.NoticeDao" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/NoticeDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="245" x="4476" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="28" language="java" name="com.ssafy.HappyHouse.dao.HouseDao" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/HouseDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="156" width="414" x="6605" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="29" language="java" name="com.ssafy.HappyHouse.service.FSelectBoxServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/FSelectBoxServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="352" x="9563" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.ssafy.HappyHouse.controller.noticeController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/noticeController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="236" width="393" x="5551" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="31" language="java" name="com.ssafy.HappyHouse.dao.FSelectBoxDAO" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/FSelectBoxDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="352" x="9563" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="32" language="java" name="com.ssafy.HappyHouse.dto.SidoCodeDTO" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/SidoCodeDTO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="336" width="224" x="2958" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.ssafy.HappyHouse.controller.aptController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/aptController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="454" x="7404" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="34" language="java" name="com.ssafy.HappyHouse.dao.QnADAO" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/QnADAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="176" width="188" x="6360" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="35" language="java" name="com.ssafy.HappyHouse.dto.HousePageBean" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/HousePageBean.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="776" width="204" x="3222" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.ssafy.HappyHouse.controller.memberController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/memberController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="336" width="783" x="10393" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.ssafy.HappyHouse.controller.interestController" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/controller/interestController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="437" x="7898" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.ssafy.HappyHouse.service.MemberServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/MemberServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="328" x="11216" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="39" language="java" name="com.ssafy.HappyHouse.service.FSelectBoxService" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/FSelectBoxService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="352" x="9955" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="40" language="java" name="com.ssafy.HappyHouse.dao.MemberInfoDao" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/MemberInfoDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="328" x="11216" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="41" language="java" name="com.ssafy.HappyHouse.dto.ChartInfo" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/ChartInfo.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="256" width="180" x="3466" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.ssafy.HappyHouse.dto.CommercialDTO" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/CommercialDTO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1516" width="1035" x="3971" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.ssafy.HappyHouse.service.CommercialServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/CommercialServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="261" x="9003" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.ssafy.HappyHouse.dto.InterestAptDto" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dto/InterestAptDto.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="236" width="180" x="5046" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="45" language="java" name="com.ssafy.HappyHouse.service.NoticeService" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/NoticeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="245" x="5409" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="46" language="java" name="com.ssafy.HappyHouse.dao.InterestAptDao" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/dao/InterestAptDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="287" x="8375" y="1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="47" language="java" name="com.ssafy.HappyHouse.service.ChartServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이" 
+    file="/HappyHouse_Web_Spring_광주_3반_김지홍_윤지혜_이로운이/src/main/java/com/ssafy/HappyHouse/service/ChartServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="441" x="12065" y="-537"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="48">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="49">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="50" name="houseservice"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="52">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="53">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="54" name="iaService"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="56">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <association id="57">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="58" name="mapService"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="61" name="memberService"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="63">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="64">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="65" name="houseService"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="68" name="service"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="71" name="dao"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="74" name="dao"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="77" name="noticeService"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="80" name="memberDao"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="83" name="service"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="85">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="86">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <association id="87">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="88" name="dao"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="90">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="91">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="92" name="service"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="94">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="39"/>  
+  </realization>  
+  <association id="95">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="96" name="dao"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="98">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="99">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="100" name="interestaptDao"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="103" name="dao"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="105">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="106" name="qnaService"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="108">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="109">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="110">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="111" name="service"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="114" name="dao"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
